@@ -17,7 +17,7 @@ $(document).ready(function () {
         const btn = $(this);
 
         // Change GIF to crying
-        $(".gif-pic").attr("src", "/assets/images/crying.gif");
+        $(".gif-pic").attr("src", "assets/images/crying.gif");
 
         // Grow YES button
         let yes = $(".yes");
@@ -63,7 +63,7 @@ $(document).ready(function () {
 
     // YES button behavior 💖
     $(".yes").on("click", function () {
-        $(".gif-pic").attr("src", "/assets/images/excited.gif");
+        $(".gif-pic").attr("src", "assets/images/excited.gif");
         $(".no").fadeOut();
         $(".title").text("SEE YOU!!!");
     });
